@@ -1,5 +1,8 @@
+//A PROGRAM FOR CHECKING THE SUM IS ODD OR NOT
+//CLASS NAME WITH ACCESS SPECIFIER
 public class theSumOfOddAndEven
 {
+    //MAIN METGHOD 
     public static void main(String[] args)
     {
         int i, j, evenSum = 0, oddSum = 0;
@@ -9,6 +12,7 @@ public class theSumOfOddAndEven
                 System.out.println(i);
                 oddSum = oddSum + i;
             }
+        //PRINT STATEMENT
         System.out.println("Sum Of Odd Numbers = " + oddSum);
         {
             for (j = 0; j <= 20; j++)
@@ -17,6 +21,7 @@ public class theSumOfOddAndEven
                     System.out.println(j);
                     evenSum = evenSum + i;
                 }
+            //FINAL OUTPUT PRINT METHOD
             System.out.println("Sum Of Even Numbers = " + evenSum);
         }
     }
